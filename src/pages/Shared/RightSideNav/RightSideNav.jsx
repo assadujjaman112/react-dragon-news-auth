@@ -9,7 +9,7 @@ const RightSideNav = () => {
         <div>
             <div className='p-4 space-y-3 mb-6'>
                 <h2 className="text-3xl">Login With</h2>
-                <button className="btn btn-outline w-full">
+                <button className="btn btn-outline w-full text-blue-600">
                     <FaGoogle></FaGoogle>
                     Google
                 </button>
@@ -20,21 +20,21 @@ const RightSideNav = () => {
             </div>
             <div className='p-4 mb-6'>
                 <h2 className="text-3xl mb-4">Find Us on</h2>
-                <a className='p-4 flex text-lg items-center border rounded-t-lg' href="">
-                    <FaFacebook className='mr-3'></FaFacebook>
+                <a className='p-4 flex text-lg items-center  border rounded-t-lg' href="">
+                    <FaFacebook className='mr-3 text-blue-500'></FaFacebook>
                     <span>Facebook</span>
                 </a>
                 <a className='p-4 flex text-lg items-center border-x' href="">
-                    <FaTwitter className='mr-2'></FaTwitter>
+                    <FaTwitter className='mr-2 text-blue-400'></FaTwitter>
                     <span>Twitter</span>
                 </a>
                 <a className='p-4 flex text-lg items-center border rounded-b-lg' href="">
-                    <FaInstagram className='mr-2'></FaInstagram>
-                    <span>Facebook</span>
+                    <FaInstagram className='mr-2 text-[#D82D7E]'></FaInstagram>
+                    <span>Instagram</span>
                 </a>
             </div>
             {/* q zone */}
-            <div className='p-4 space-y-3 mb-6'>
+            <div className='p-4 space-y-3 mb-6 bg-[#F3F3F3]'>
                 <h2 className="text-3xl">Q Zone</h2>
                 <img src={qZone1} alt="" />
                 <img src={qZone2} alt="" />
